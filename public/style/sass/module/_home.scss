@@ -1,0 +1,41 @@
+.home {
+  div {
+    position: relative;
+    img {
+      width: 100%;
+    }
+
+    h2 {
+      width: 100%;
+      position: absolute;
+      bottom: 4%;
+      color: $primary;
+      text-align: center;
+    }
+  }
+
+  button {
+    a {
+      width: 100%;
+    }
+  }
+
+  #landing {
+    margin: 2% auto;
+    padding: 2%;
+    width: 94%;
+    background: $primary;
+    border-radius: 5px;
+    h5 {
+      text-align: center;
+      font-size: 5vw;
+      font-weight: 700;
+      margin-bottom: 2%;
+    }
+
+    p {
+      font-size: 5vw;
+      text-align: center;
+    }
+  }
+}

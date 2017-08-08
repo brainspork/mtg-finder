@@ -1,0 +1,24 @@
+#results {
+  ul {
+    li {
+      width: 94%;
+      margin: 2% auto;
+      padding: 2%;
+      border: 3px solid $secondary;
+      border-radius: 5px;
+      background: $primary;
+      img {
+        width: 25%;
+      }
+
+      div {
+        width: 73%;
+        float: right;
+        display: inline-block;
+        p {
+          margin-left: 2%;
+        }
+      }
+    }
+  }
+}

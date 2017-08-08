@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="mtgFinder">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MTG Finder</title>
+    <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+    <link rel="stylesheet" href="/vendor/style/icomoon/style.css">
+    <link rel="stylesheet" href=/vendor/style/mtg-icons/mana.css>
+    <link rel="stylesheet" href="/style/style.css">
+  </head>
+  <body>
+    <navigation></navigation>
+    <main>
+      <div ng-view></div>
+    </main>
+    <lower-nav></lower-nav>
+    <script src="/scripts/jquery/dist/jquery.min.js"></script>
+    <script src="/scripts/angular/angular.min.js"></script>
+    <script src="/scripts/angular-route/angular-route.min.js"></script>
+    <script src="/scripts/angular-resource/angular-resource.min.js"></script>
+    <script src="/scripts/angular-animate/angular-animate.min.js"></script>
+    <script src="/app/app.module.js"></script>
+    <script src="/app/app.config.js"></script>
+    <script src="/app/core/core.module.js"></script>
+    <script src="/app/core/mana/mana.filter.js"></script>
+    <script src="/app/navigation/navigation.module.js"></script>
+    <script src="/app/navigation/navigation.component.js"></script>
+    <script src="/app/home/home.module.js"></script>
+    <script src="/app/home/home.component.js"></script>
+    <script src="/app/search/search.module.js"></script>
+    <script src="/app/search/search.component.js"></script>
+    <script src="/app/card-detail/card-detail.module.js"></script>
+    <script src="/app/card-detail/card-detail.component.js"></script>
+    <script src="/app/lower-nav/lower-nav.module.js"></script>
+    <script src="/app/lower-nav/lower-nav.component.js"></script>
+  </body>
+</html>

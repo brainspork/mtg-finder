@@ -1,0 +1,79 @@
+$font-color: #000;
+$font: 'Spectral', Helvetica, sans-serif;
+$primary: #BFBC99;
+$secondary: #879B69;
+$tertiary: #000;
+$highlight: #fff;
+
+.clear-fix {
+  clear: both;
+}
+
+.scroll-stop {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  font-family: $font;
+  background: #444;
+}
+
+a, a:visited {
+  font-size: 5vw;
+  color: $font-color;
+  text-decoration: none;
+}
+
+h1{
+  font-size: 10vw;
+}
+
+h2 {
+  font-size: 7.5vw;
+}
+
+h3, input, select {
+  font-size: 5vw;
+}
+
+input {
+  width: 98%;
+  padding: 0 1%;
+  text-align: center;
+  font-family: $font;
+}
+
+select {
+  width: 100%;
+  text-align: center;
+  font-family: $font;
+}
+
+form {
+  width: 94%;
+  margin: 2% auto;
+  padding: 2%;
+  background: $primary;
+  border: 3px solid $secondary;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 2.5vw;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  background: $secondary;
+  padding: 1% 2%;
+  font-size: 5vw;
+  font-family: $font;
+  display: block;
+  margin: 0 auto;
+}
+
+button:active {
+  background: $primary;
+}

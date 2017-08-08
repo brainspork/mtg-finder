@@ -1,0 +1,25 @@
+#search {
+  margin: 2% 0;
+  form {
+    width: 94%;
+    margin: 2% auto;
+    select {
+      option:active {
+        background: $highlight;
+      }
+    }
+
+    input {
+      margin-top: 2%;
+      border: none;
+    }
+
+    input:focus {
+      border: $highlight;
+    }
+
+    button {
+      margin: 2% auto;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<section id="search" class="search">
+  <form>
+    <select id="set-name">
+      <option value="">-- select a set --</option>
+      <option ng-repeat="set in $ctrl.sets">{{set}}</option>
+    </select>
+    <input id="card-name" placeholder="Card Name">
+    <button ng-click="$ctrl.find()">Search</button>
+  </form>
+</section>
+
+<section id="results" class="search">
+  <ul>
+    <li ng-repeat="card in $ctrl.results">
+      <a href="/#!/card/{{card.name}}">
+        <img src="{{card.imageUrl}}">
+        <div>
+          <h3>{{card.name}}</h3>
+          <p>Set: {{card.setName}}</p>
+          <p>Type: {{card.type}}</p>
+        </div>
+      </a>
+    </li>
+  </ul>
+</section>

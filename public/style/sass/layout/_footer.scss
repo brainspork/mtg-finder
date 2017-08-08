@@ -1,0 +1,9 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: $primary;
+  width: 100%;
+  border-top: 3px solid $secondary;
+  z-index: 99999999;
+}

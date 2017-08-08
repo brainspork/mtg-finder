@@ -1,0 +1,284 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.clear-fix {
+  clear: both; }
+
+.scroll-stop {
+  overflow: hidden;
+  height: 100%; }
+
+body {
+  font-family: "Spectral", Helvetica, sans-serif;
+  background: #444; }
+
+a, a:visited {
+  font-size: 5vw;
+  color: #000;
+  text-decoration: none; }
+
+h1 {
+  font-size: 10vw; }
+
+h2 {
+  font-size: 7.5vw; }
+
+h3, input, select {
+  font-size: 5vw; }
+
+input {
+  width: 98%;
+  padding: 0 1%;
+  text-align: center;
+  font-family: "Spectral", Helvetica, sans-serif; }
+
+select {
+  width: 100%;
+  text-align: center;
+  font-family: "Spectral", Helvetica, sans-serif; }
+
+form {
+  width: 94%;
+  margin: 2% auto;
+  padding: 2%;
+  background: #BFBC99;
+  border: 3px solid #879B69;
+  border-radius: 5px; }
+
+p {
+  font-size: 2.5vw; }
+
+button {
+  border: none;
+  border-radius: 3px;
+  background: #879B69;
+  padding: 1% 2%;
+  font-size: 5vw;
+  font-family: "Spectral", Helvetica, sans-serif;
+  display: block;
+  margin: 0 auto; }
+
+button:active {
+  background: #BFBC99; }
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #BFBC99;
+  border-bottom: 3px solid #879B69;
+  width: 100%; }
+
+main {
+  width: 100%;
+  margin-top: 20%;
+  margin-bottom: 12.5%; }
+
+section {
+  width: 100%; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #BFBC99;
+  width: 100%;
+  border-top: 3px solid #879B69;
+  z-index: 99999999; }
+
+header img {
+  width: 15%;
+  margin: 2%;
+  float: left; }
+header h1 {
+  display: inline-block;
+  margin: 3%; }
+header span {
+  font-size: 10vw;
+  margin: 3% 2%;
+  float: right;
+  z-index: 9999; }
+header nav {
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  margin-top: 3px;
+  width: 100%;
+  transform: translateX(100%);
+  transition: transform 350ms;
+  z-index: 999999; }
+  header nav ul {
+    width: 75%;
+    height: 200vw;
+    background: #879B69;
+    float: right; }
+    header nav ul li {
+      border-bottom: 3px solid #fff;
+      text-align: center; }
+      header nav ul li a {
+        padding: 2% 0;
+        display: block; }
+header .open {
+  transform: translateX(0); }
+
+#login form input {
+  margin-bottom: 2%; }
+#login form .btn-group {
+  width: 40%;
+  margin: 0 auto; }
+  #login form .btn-group button {
+    float: left; }
+  #login form .btn-group button:last-of-type {
+    margin-left: 2%; }
+
+section input {
+  margin-bottom: 2%; }
+
+.home div {
+  position: relative; }
+  .home div img {
+    width: 100%; }
+  .home div h2 {
+    width: 100%;
+    position: absolute;
+    bottom: 4%;
+    color: #BFBC99;
+    text-align: center; }
+.home button a {
+  width: 100%; }
+.home #landing {
+  margin: 2% auto;
+  padding: 2%;
+  width: 94%;
+  background: #BFBC99;
+  border-radius: 5px; }
+  .home #landing h5 {
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 700;
+    margin-bottom: 2%; }
+  .home #landing p {
+    font-size: 5vw;
+    text-align: center; }
+
+#search {
+  margin: 2% 0; }
+  #search form {
+    width: 94%;
+    margin: 2% auto; }
+    #search form select option:active {
+      background: #fff; }
+    #search form input {
+      margin-top: 2%;
+      border: none; }
+    #search form input:focus {
+      border: #fff; }
+    #search form button {
+      margin: 2% auto; }
+
+#results ul li {
+  width: 94%;
+  margin: 2% auto;
+  padding: 2%;
+  border: 3px solid #879B69;
+  border-radius: 5px;
+  background: #BFBC99; }
+  #results ul li img {
+    width: 25%; }
+  #results ul li div {
+    width: 73%;
+    float: right;
+    display: inline-block; }
+    #results ul li div p {
+      margin-left: 2%; }
+
+#card-details h3 {
+  margin: 2%;
+  padding: 2% 1%;
+  background: #BFBC99;
+  border: 3px solid #879B69;
+  border-radius: 25px;
+  text-align: center; }
+#card-details img {
+  margin: 2%;
+  width: 30%; }
+#card-details article {
+  display: inline-block;
+  margin: 2% 2% 12.5% 2%;
+  padding: 2%;
+  width: 58%;
+  float: right;
+  background: #BFBC99;
+  border-radius: 5px; }
+  #card-details article #mana span {
+    margin-right: 2%;
+    float: left;
+    font-size: 5vw; }
+  #card-details article h4 {
+    margin: 2% 0;
+    font-weight: 700;
+    font-size: 2.5vw; }
+  #card-details article p {
+    margin-left: 2%; }
+  #card-details article details summary {
+    display: inline-block;
+    font-size: 2.5vw; }
+  #card-details article details summary:focus {
+    border: none; }
+  #card-details article details p {
+    margin: 2% 0 0 2%; }
+
+footer p {
+  margin-top: 3%;
+  margin-left: 2%;
+  float: left; }
+footer #social {
+  display: inline-block;
+  float: right;
+  margin: 2%; }
+
+/*# sourceMappingURL=style.css.map */

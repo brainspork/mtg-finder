@@ -1,0 +1,57 @@
+#card-details {
+  h3 {
+    margin: 2%;
+    padding: 2% 1%;
+    background: $primary;
+    border: 3px solid $secondary;
+    border-radius: 25px;
+    text-align: center;
+  }
+
+  img {
+    margin: 2%;
+    width: 30%;
+  }
+
+  article {
+    display: inline-block;
+    margin: 2% 2% 12.5% 2%;
+    padding: 2%;
+    width: 58%;
+    float: right;
+    background: $primary;
+    border-radius: 5px;
+    #mana {
+      span {
+        margin-right: 2%;
+        float: left;
+        font-size: 5vw;
+      }
+    }
+
+    h4 {
+      margin: 2% 0;
+      font-weight: 700;
+      font-size: 2.5vw;
+    }
+
+    p {
+      margin-left: 2%;
+    }
+
+    details {
+      summary {
+        display: inline-block;
+        font-size: 2.5vw;
+      }
+
+      summary:focus {
+        border: none;
+      }
+
+      p {
+        margin: 2% 0 0 2%;
+      }
+    }
+  }
+}
