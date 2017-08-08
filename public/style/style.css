@@ -367,13 +367,15 @@ footer div #social {
   margin: 2%; }
 
 @media only screen and (min-width: 640px) {
-  div {
+  footer div {
     max-width: 960px;
     margin: 0 auto; }
-    div p {
+    footer div p {
       margin-top: 2%;
       font-size: 25px; }
-    div a {
+    footer div span:hover {
+      cursor: pointer; }
+    footer div a {
       font-size: 30px; } }
 
 /*# sourceMappingURL=style.css.map */
