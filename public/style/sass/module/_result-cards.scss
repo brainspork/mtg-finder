@@ -22,3 +22,21 @@
     }
   }
 }
+
+@media only screen and (min-width: 960px) {
+  #results {
+    ul {
+      li {
+        div {
+          h3 {
+            font-size: 50px;
+          }
+
+          p {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+}

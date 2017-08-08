@@ -46,3 +46,51 @@ header {
     transform: translateX(0);
   }
 }
+
+@media only screen and (min-width: 640px) {
+  header {
+    div {
+      max-width: 960px;
+      margin: 0 auto;
+      img {
+        max-width: 150px;
+      }
+
+      h1 {
+        font-size: 75px;
+        margin-top: 4.5%;
+      }
+
+      span {
+        display: none;
+      }
+    }
+
+    nav {
+      transform: none;
+      display: block;
+      position: static;
+      background: $secondary;
+      transition: none;
+      max-width: 960px;
+      margin: 0 auto;
+      ul {
+        height: auto;
+        width: 100%;
+        background: none;
+        li {
+          float: left;
+          padding: 0 2%;
+          border: none;
+          a {
+            font-size: 30px;
+          }
+        }
+        li:hover {
+          background: rgba(0, 0, 0, 0.5);
+          transition: background-color 350ms;
+        }
+      }
+    }
+  }
+}

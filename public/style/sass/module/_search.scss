@@ -3,11 +3,6 @@
   form {
     width: 94%;
     margin: 2% auto;
-    select {
-      option:active {
-        background: $highlight;
-      }
-    }
 
     input {
       margin-top: 2%;
@@ -20,6 +15,42 @@
 
     button {
       margin: 2% auto;
+    }
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  #search {
+    form {
+      margin: 0 auto;
+      select, input {
+        margin: 0;
+        font-size: 2.5vw;
+      }
+
+      select {
+        margin-right: 2%;
+        width: 48%;
+      }
+
+      input {
+        width: 46%;
+      }
+
+      button {
+        font-size: 2.5vw;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  #search {
+    form {
+      select, input, button {
+        font-size: 25px;
+      }
     }
   }
 }
