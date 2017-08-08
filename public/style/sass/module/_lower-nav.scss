@@ -17,16 +17,21 @@ footer {
 }
 
 @media only screen and (min-width: 640px) {
-  div {
-    max-width: 960px;
-    margin: 0 auto;
-    p {
-      margin-top: 2%;
-      font-size: 25px;
-    }
+  footer {
+    div {
+      max-width: 960px;
+      margin: 0 auto;
+      p {
+        margin-top: 2%;
+        font-size: 25px;
+      }
 
-    a {
-      font-size: 30px;
+      span:hover {
+        cursor: pointer;
+      }
+      a {
+        font-size: 30px;
+      }
     }
   }
 }
