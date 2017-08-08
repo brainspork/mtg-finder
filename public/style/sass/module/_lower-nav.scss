@@ -1,15 +1,32 @@
 footer {
-  p {
-    margin-top: 3%;
-    margin-left: 2%;
-    float: left;
-  }
+  div {
+    p {
+      margin-top: 3%;
+      margin-left: 2%;
+      float: left;
+    }
 
-  #social {
-    display: inline-block;
-    float: right;
-    margin: 2%;
+    #social {
+      display: inline-block;
+      float: right;
+      margin: 2%;
+      a {
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  div {
+    max-width: 960px;
+    margin: 0 auto;
+    p {
+      margin-top: 2%;
+      font-size: 25px;
+    }
+
     a {
+      font-size: 30px;
     }
   }
 }

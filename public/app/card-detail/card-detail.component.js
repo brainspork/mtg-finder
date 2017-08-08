@@ -8,7 +8,7 @@ angular.
         var self = this;
         self.id = $routeParams.id;
         $http.get(`/card/${self.id}`).
-          then(res => {self.details = res.data[0]; console.log(res.data[0]);});
+          then(res => {self.details = res.data[0]});
       }
     ]
   });
