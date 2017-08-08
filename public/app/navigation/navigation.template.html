@@ -1,14 +1,16 @@
 <header>
-  <img src="assets/images/mtg-finder.png">
-  <h1>MTG Finder</h1>
-  <span class="icon-menu" ng-click="$ctrl.openMenu()"></span>
-  <div class="clear-fix"></div>
-  <nav>
-    <ul ng-click="$ctrl.closeMenu()">
-      <li><a href="/#!/home">Home</a></li>
-      <li><a href="/#!/search">Search</a></li>
-      <li><a href="/#!{{$root.currentUserProfile}}">Profile</a></li>
-      <li><a href="/#!/login">Log In</a></li>
-    </ul>
-  </nav>
+  <div>
+    <img src="assets/images/mtg-finder.png">
+    <h1>MTG Finder</h1>
+    <span class="icon-menu" ng-click="$ctrl.openMenu()"></span>
+    <div class="clear-fix"></div>
+  </div>
+    <nav>
+      <ul ng-click="$ctrl.closeMenu()">
+        <li><a href="/#!/home">Home</a></li>
+        <li><a href="/#!/search">Search</a></li>
+        <li><a href="/#!{{$root.currentUserProfile}}">Profile</a></li>
+        <li><a href="/#!/login">Log In</a></li>
+      </ul>
+    </nav>
 </header>

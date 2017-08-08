@@ -39,3 +39,28 @@
     }
   }
 }
+
+@media only screen and (min-width: 960px) {
+  .home {
+    h2 {
+      font-size: 75px;
+    }
+
+    #landing {
+      h5 {
+        font-size: 50px;
+      }
+
+      p {
+        font-size: 50px;
+      }
+    }
+
+    button {
+      font-size: 50px;
+      a {
+        font-size: 50px;
+      }
+    }
+  }
+}

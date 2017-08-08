@@ -16,7 +16,7 @@
 /.idea
 
 # misc
-/.sass-cache
+public/style/.sass-cache
 /connect.lock
 /coverage/*
 /libpeerconnection.log
